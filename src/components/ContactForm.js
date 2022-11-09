@@ -5,8 +5,7 @@ import axios from "axios";
 
 const ContactForm = () => {
    const handleSubmit = (values, { resetForm }) => {
-      axios.post("http://localhost:4000/contactus/create", values);
-
+      axios.post("http://localhost:4000/contactus/", values);
       resetForm();
    };
    return (
