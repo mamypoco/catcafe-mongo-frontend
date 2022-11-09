@@ -13,10 +13,9 @@ const ContactForm = () => {
          initialValues={{
             firstName: "",
             lastName: "",
-            phoneNum: "",
+            phone: "",
             email: "",
-            agree: false,
-            contactType: "By phone",
+            newsLetter: false,
             feedback: "",
          }}
          onSubmit={(values) => handleSubmit(values)}
